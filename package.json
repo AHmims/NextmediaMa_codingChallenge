@@ -4,17 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "build": "NODE_ENV=production /node_modules/webpack/bin/webpack.js --mode=production --progress",
-    "watch": "/node_modules/webpack/bin/webpack.js --mode=development --progress --watch"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> parent of 1bf0a27 (tailwind with JIT works but requires server reload on every html change)
-=======
     "start": "webpack serve --mode=development --open",
     "build": "export NODE_ENV=production && webpack"
->>>>>>> parent of 8a4a387 (refactor of config setup || bug referenced from before https://github.com/tailwindlabs/tailwindcss/issues/4023)
   },
   "repository": {
     "type": "git",

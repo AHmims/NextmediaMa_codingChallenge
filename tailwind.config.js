@@ -4,7 +4,7 @@ module.exports = {
     enabled: true,
     content: ['./dist/index.html']
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     extend: {},
   },
