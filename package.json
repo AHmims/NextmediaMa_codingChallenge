@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "build": "NODE_ENV=production /node_modules/webpack/bin/webpack.js --mode=production --progress",
     "watch": "/node_modules/webpack/bin/webpack.js --mode=development --progress --watch"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> parent of 1bf0a27 (tailwind with JIT works but requires server reload on every html change)
   },
   "repository": {
     "type": "git",
