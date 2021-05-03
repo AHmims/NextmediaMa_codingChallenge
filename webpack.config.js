@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-<<<<<<< HEAD
    mode: 'production',
    entry: './src/js/script.js',
    output: {
@@ -31,12 +30,4 @@ module.exports = {
       contentBase: path.resolve(__dirname, 'dist'),
       watchContentBase: true,
    }
-=======
-    mode: 'production',
-    entry: './src/js/script.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
-    }
->>>>>>> f5460d7d55fd3515ed83637519f6d8ae679ebda7
 };
