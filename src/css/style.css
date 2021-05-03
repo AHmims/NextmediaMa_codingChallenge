@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .carouselItem {
+    @apply w-full h-full bg-warmGray-100 flex items-center justify-center text-warmGray-400;
+  }
+  .carouselButton {
+    @apply w-4 h-4 rounded-full bg-white border border-gray-900 ring-gray-400 focus:outline-none focus:ring-[3px];
+  }
+  .carouselButton[aria-selected="true"] {
+    @apply bg-gray-900;
+  }
+}
