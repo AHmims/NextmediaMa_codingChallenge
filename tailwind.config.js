@@ -2,7 +2,7 @@ module.exports = {
   mode: 'jit',
   purge: {
     enabled: true,
-    content: ['./dist/index.html']
+    content: ['dist/index.html']
   },
   darkMode: false,
   theme: {

@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CodingChallenge</title>
 </head>
-<body class="bg-red-100">
-    <h1>Testing</h1>
+<body>
+    <!-- PAGE CONTAINER -->
+    <div class="container mx-auto bg-white">
+        <!-- PRE NAVBAR -->
+        <div class="w-full px-8 py-6 sm:px-16 sm:py-8 border-b-[1px] border-gray-300 flex flex-col sm:flex-row items-center justify-between text-center">
+            <!-- CURRENCY SELECTOR -->
+            <select class="font-medium" aria-label="currency" aria-placeholder="Select a currency to use across the website">
+                <option value="USD" default>USD</option>
+                <option value="MAD" default>MAD</option>
+            </select>
+            <!-- NAVIGATION LINKS -->
+            <ul class="uppercase text-xs flex space-x-4 text-gray-900 mt-3 sm:mt-0">
+                <li><a href="#">My account</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Shopping cart</a></li>
+                <li><a href="#">Checkout</a></li>
+            </ul>
+        </div>
+    </div>
     <script src="bundle.js"></script>
 </body>
 </html>
