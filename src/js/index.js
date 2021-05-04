@@ -1,3 +1,4 @@
+//Carousel logic
 (() => {
     let carouselButtons = document.getElementsByClassName('carouselButton');//GET LIST OF CAROUSEL CONTROLS
     let carouselItems = document.getElementsByClassName('carouselItem');//GET LIST OF CAROUSEL ITEMS
@@ -19,4 +20,28 @@
             carouselButtons[i].setAttribute('aria-selected', true);
         });
     }
+})();
+//Menu logic
+(() => {
+    let menuButton = document.getElementById('showMenu');
+    let hideMenuButton = document.getElementById('hideMenu');
+    let mobileMenu = document.getElementById('mobileMenu');
+    //ATTACH CLIK EVENT TO BURGER MENU
+    menuButton.addEventListener('click', e => {
+        let isHidden = mobileMenu.classList.contains('hidden');
+        //IF MENU ISN'T HIDDEN HIDE IT (THIS IS JUST FOR EDGE CASES WHERE BY ANY CHANCE THE USER RECLICKED THE MENU BUTTON)
+        if (!isHidden)
+            mobileMenu.classList.add('hidden');
+        //ELSE DISPLAY IT
+        else
+            mobileMenu.classList.remove('hidden');
+    });
+    //
+    //ATTACH CLICK EVENT TO MENU CLOSE BUTTON
+    hideMenuButton.addEventListener('click', e => {
+        let isHidden = mobileMenu.classList.contains('hidden');
+        //IF MENU IS DISPLAYED HIDE IT
+        if (!isHidden)
+            mobileMenu.classList.add('hidden');
+    });
 })();
