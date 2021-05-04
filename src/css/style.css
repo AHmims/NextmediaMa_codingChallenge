@@ -12,4 +12,17 @@
   .carouselButton[aria-selected="true"] {
     @apply bg-gray-900;
   }
+  /*  */
+  .galleryProduct > .image {
+    @apply w-full h-[310px] bg-white border border-gray-600;
+  }
+  .galleryProduct > .text {
+    @apply w-full flex flex-col mt-5;
+  }
+  .galleryProduct > .text > .name {
+    @apply text-base text-gray-800;
+  }
+  .galleryProduct > .text > .price {
+    @apply text-lg font-medium text-gray-900 mt-1;
+  }
 }

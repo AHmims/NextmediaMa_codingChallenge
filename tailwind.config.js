@@ -11,6 +11,9 @@ module.exports = {
     extend: {
       colors: {
         warmGray: colors.warmGray
+      },
+      gridTemplateColumns: {
+        products: 'repeat(4,minmax(0, 248px))'
       }
     },
   },
