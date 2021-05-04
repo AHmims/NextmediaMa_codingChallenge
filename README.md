@@ -13,7 +13,10 @@ Time took: around 5h
 
 | `webpack` | `tailwindcss(JIT)` |
 
-  
+## Preview
+
+https://www.hmims.dev/nmcc/
+
 ## Installation 
 
 Clone the project
