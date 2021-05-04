@@ -16,6 +16,9 @@
   .galleryProduct > .image {
     @apply w-full h-[310px] bg-white border border-gray-600;
   }
+  .galleryProduct > .image > img {
+    @apply object-contain h-full w-full;
+  }
   .galleryProduct > .text {
     @apply w-full flex flex-col mt-5;
   }
